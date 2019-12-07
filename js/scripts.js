@@ -8,29 +8,8 @@ $(document).ready(function() {
     var motivation = $("input:radio[name=motivation]:checked").val();
     var free = $("input:radio[name=free]:checked").val();
 
-  if (meal === "lobster-roll") {
-    $("#ruby").show();
-  }
-
-  if (show === "office") {
-    $("#python").show();
-  }
-
-  if (marathon === 1) {
-    $("#js").show();
-  }
-
-  if (buddy === 1) {
-    $("#r").show();
-  }
-
-  if (motivation === "money") {
-    $("#go").show();
-  }
-
-  if (free === "sleep") {
-    $("#ruby").show();
-  }
-  
+    if (meal === "burger" && show === "office" && marathon === 1 && buddy === 1 && motivation === "peace" && free === "sleep") {
+      $("#ruby").show();
+    }
     });
   });
