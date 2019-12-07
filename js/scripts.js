@@ -3,6 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     var meal = $("input:radio[name=meal]:checked").val();
     var show = $("input:radio[name=show]:checked").val();
+    var marathon = parseInt($("#marathon").val());
 
   if (meal === "lobster-roll") {
     $("#ruby").show();
@@ -12,7 +13,9 @@ $(document).ready(function() {
     $("#python").show();
   }
 
-
+  if (marathon === 1) {
+    $("#js").show();
+  }
 
     });
   });
