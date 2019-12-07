@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $("form#blanks").submit(function(event) {
     event.preventDefault();
+    $(".hidden").hide();
+    
     var meal = $("input:radio[name=meal]:checked").val();
     var show = $("input:radio[name=show]:checked").val();
     var marathon = parseInt($("#marathon").val());
