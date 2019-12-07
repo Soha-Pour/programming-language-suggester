@@ -1,0 +1,12 @@
+#ruby, #python, #js, #go {
+  display: none;
+}
+
+#banner {
+  text-align: center;
+}
+
+.question-title {
+  font-weight: bold;
+  font-size: 24px;
+}
