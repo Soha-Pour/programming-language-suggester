@@ -11,13 +11,13 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
     $("#ruby, #python, #js, #go, #r").hide();
 
-    if (meal === "burger" && show === "office" && marathon === 1 && buddy === 1 && motivation === "peace" && free === "sleep") {
+    if (meal === "burger" || "pad-thai" && show === "office" && marathon === 1 && buddy === 1 && motivation === "peace" && free === "sleep") {
       $("#r").show();
-    } else if (meal === "pad-thai" && show === "breaking-bad" && marathon === 1 && buddy === 2 && motivation === "money" && free === "closet") {
+    } else if (meal === "pad-thai" || "lobster-roll" && show === "breaking-bad" && marathon === 1 && buddy === 2 && motivation === "money" && free === "closet") {
       $("#python").show();
-    } else if (meal === "lobster-roll" && show === "bob-ross" && marathon === 1 && buddy === 2 && motivation === "power" && free === "friends") {
+    } else if (meal === "lobster-roll" || "sushi" && show === "bob-ross" && marathon === 1 && buddy === 2 && motivation === "power" && free === "friends") {
       $("#js").show();
-    } else if (meal === "sushi" && show === "stranger-things" && marathon === 2 && buddy === 3 && motivation === "helping" && free === "read") {
+    } else if (meal === "sushi" || "burrito" && show === "stranger-things" && marathon === 2 && buddy === 3 && motivation === "helping" && free === "read") {
       $("#go").show();
     } else if (meal === "burrito" && show === "office" && marathon === 2 && buddy === 4 && motivation === "money" && free === "closet") {
       $("#r").show();
