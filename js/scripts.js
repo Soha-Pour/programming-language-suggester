@@ -12,7 +12,7 @@ $(document).ready(function() {
     $("#ruby, #python, #js, #go, #r").hide();
 
     if (meal === "burger" && show === "office" && marathon === 1 && buddy === 1 && motivation === "peace" && free === "sleep") {
-      $("#ruby").show();
+      $("#r").show();
     } else if (meal === "pad-thai" && show === "breaking-bad" && marathon === 1 && buddy === 2 && motivation === "money" && free === "closet") {
       $("#python").show();
     } else if (meal === "lobster-roll" && show === "bob-ross" && marathon === 1 && buddy === 2 && motivation === "power" && free === "friends") {
@@ -22,7 +22,7 @@ $(document).ready(function() {
     } else if (meal === "burrito" && show === "office" && marathon === 2 && buddy === 4 && motivation === "money" && free === "closet") {
       $("#r").show();
     } else {
-      $("#r").show();
+      $("#ruby").show();
     }
 
     $(".name").text(nameInput);
