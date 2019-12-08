@@ -17,6 +17,10 @@
       </div>
 
     <form id="blanks">
+      <div class="form-group">
+          <label for="name">What's your name?</label>
+          <input id="name" class="form-control" type="text">
+        </div>
       <div class="well">
         <p class="question-title">Ideal meal</p>
         <div class="radio"><!--meal-->
@@ -159,15 +163,18 @@
        </div>
       </div>
 
-    <button type="submsit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 
     </form><!--blanks.form-->
 
-    <h1 id="ruby">You should learn Ruby first.</h1>
-    <h1 id="python">You should learn Python first.</h1>
-    <h1 id="js">You should learn JavaScript first.</h1>
-    <h1 id="go">You should learn Go first.</h1>
-    <h1 id="r">You should learn R first</h1>
+      <div class="hidden" id="ruby">
+        <h1>According to our very fancy algorithm...</h1>
+      </div>
+
+      <h1 id="python">According to our very fancy algorithm, it looks like you should learn Python first.</h1>
+      <h1 id="js">According to our very fancy algorithm, it looks like you should learn JavaScript first.</h1>
+      <h1 id="go">According to our very fancy algorithm, it looks like you should learn Go first.</h1>
+      <h1 id="r">According to our very fancy algorithm, it looks like you should learn R first</h1>
 
     </div><!--container-->
   </body>
